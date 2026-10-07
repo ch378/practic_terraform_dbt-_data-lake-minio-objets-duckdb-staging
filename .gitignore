@@ -1,0 +1,47 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Generated data
+*.csv
+*.json
+
+# dbt
+dbt_banking/target/
+dbt_banking/logs/
+dbt_banking/dbt_packages/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

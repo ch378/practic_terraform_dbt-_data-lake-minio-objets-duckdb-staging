@@ -1,0 +1,22 @@
+
+name: dbt_banking
+
+version: "1.0.0"
+
+config-version: 2
+
+profile: dbt_banking
+
+model-paths: ["models"]
+
+models:
+  dbt_banking:
+
+    staging:
+      +materialized: view
+
+    intermediate:
+      +materialized: table
+
+    marts:
+      +materialized: table
