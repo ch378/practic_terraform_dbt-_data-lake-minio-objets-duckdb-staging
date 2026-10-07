@@ -744,7 +744,8 @@ Business Intelligence
 L'utilisation combinée de **Terraform, Docker, MinIO, DuckDB, dbt, Redis et Python** permet de construire une architecture reproductible et proche des pratiques utilisées dans les environnements professionnels.
 
 La prochaine évolution sera l'ajout d'un orchestrateur comme **Apache Airflow ou Dagster** afin d'automatiser l'ensemble du pipeline et de passer d'une exécution manuelle à une véritable **pipeline Data Engineering orchestrée**.
-screen terreform<img width="1920" height="1080" alt="Screenshot 2026-10-07 150018" src="https://github.com/user-attachments/assets/cc08c975-98b7-4b7a-8df7-33f1099724e1" />
+screen terreform<img width="1920" height="1080" alt="Screenshot 2026-10-07 150018" src="https://github.com/user-attachments/assets/02b6b1a4-92be-4342-87c1-fa40449a5680" />
+
 dbvear pour visualisation de base de donnes<img width="1920" height="1020" alt="Screenshot 2026-10-07 162742" src="https://github.com/user-attachments/assets/7663829a-9a0c-4a53-9546-7c4b065401ce" />
 <img width="1920" height="1020" alt="Screenshot 2026-10-07 162652" src="https://github.com/user-attachments/assets/031573ca-507e-4dcb-9256-1dc569589bfd" />
 object storage <img width="1920" height="1080" alt="Screenshot 2026-10-07 145912" src="https://github.com/user-attachments/assets/1b87886a-3e9f-4c77-9223-7554e99cc37f" />
